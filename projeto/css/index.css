@@ -1,0 +1,260 @@
+html, body: {
+    overflow-x: hidden;
+}
+.banner-twitter {
+    text-transform: none;
+    box-sizing: border-box;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 1rem;
+    border: 0.3em solid black;
+    background-color: #3C1D3D;
+    position: absolute;
+    padding: 1ch 10ch;
+    top: 0;
+    right: 0;
+    transform: translate(85px, 30px) rotate(45deg)
+}
+.foto-home {
+    height: 200px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+}
+.titulo-principal h1 {
+    text-shadow: 2px 2px #000;
+}
+.subtitulo-principal {
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: none;
+}
+header {
+    position: relative;
+}
+.palavra-home {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #D5447E;
+    position: absolute;
+    font-size: 200%;
+    width: inherit;
+}
+.eficiencia {
+    top: 10%;
+    left: 70%;
+    transform: translate(-50%, 50%) rotate(15deg) translateZ(1px) scale(0.25); 
+    opacity: .8;
+}
+.boas-praticas {
+    top: 25%;
+    left: 40%;
+    transform: translate(-50%, 50%) rotate(-20deg) translateZ(2px) scale(0.25);
+    opacity: 1;
+}
+.codigo-limpo {
+    top: 45%;
+    left: 75%;
+    transform: translate(-50%, 50%) rotate(-15deg) translateZ(1px) scale(0.25);
+    opacity: .8;
+}
+.css3 {
+    top: 75%;
+    left: 25%;
+    transform: translate(-50%, 50%) rotate(15deg) translateZ(0) scale(0.25);
+    opacity: .6;
+}
+.html5 {
+    top: 60%;
+    left: 10%;
+    transform: translate(-50%, 50%) rotate(-10deg) translateZ(-1px) scale(0.25);
+    opacity: .4;
+}
+.javascript {
+    top: 70%;
+    left: 80%;
+    transform: translate(-50%, 50%) rotate(-30deg) translateZ(-2px) scale(0.25);
+    opacity: .2;
+}
+.acessibilidade {
+    top: 77%;
+    left: 35%;
+    transform: translate(-50%, 50%) rotate(5deg) translateZ(1px) scale(0.25);
+    opacity: .8;
+}
+.responsivo {
+    top: 90%;
+    left: 65%;
+    transform: translate(-50%, 50%) rotate(-12deg) translateZ(-2px) scale(0.25);
+    opacity: .2;
+}
+.otimizacoes {
+    top: 30%;
+    left: 75%;
+    transform: translate(-50%, 50%) rotate(20deg) translateZ(-1px) scale(0.25);
+    opacity: .4;
+}
+.agilidade {
+    top: 10%;
+    left: 15%;
+    transform: translate(-50%, 50%) rotate(-30deg) translateZ(0) scale(0.25);
+    opacity: .6;
+}
+.design {
+    top: 40%;
+    left: 15%;
+    transform: translate(-50%, 50%) rotate(30deg) translateZ(1px) scale(0.25);
+    opacity: .8;
+}
+
+section.saudacao {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+.saudacao p {
+    color: #99A;
+    line-height: 1;
+}
+.saudacao-inicio {
+    color: #889;
+    font-size: 4em;
+}
+.saudacao-ultima-linha {
+    text-align: right;
+    display: block;
+}
+.saudacao strong {
+    color: #000;
+    font-size: 2em;
+}
+.saudacao em {
+    color: #851944;
+    font-size: 4em;  
+    display: inline-block;
+    transform: skew(-5deg, -5deg);
+}
+.botao-index {
+    background-color: #851944;
+    color: #FFF;
+    border: .2em solid black;
+    width: 400px;
+    display: block;
+    text-align: center;
+    margin: 2em auto;
+    line-height: 2.5em;
+    font-size: 1.2em;
+}
+.secao-inicio {
+    padding: 2em;
+    padding-top: 1em;
+}
+.secao-inicio h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+    margin: 1em 0;
+    text-shadow: 2px 2px #000;
+}
+.trabalhos {
+    background-color: #3C1D3D;
+    background-image: linear-gradient(
+        to bottom right,
+        transparent 50%,
+        rgba(0,0,0,.1) 50%,
+        rgba(0,0,0,.1) 55%,
+        transparent 55%
+    );
+    background-size: 20px 20px;
+    background-attachment: fixed;
+    border-top: .5em solid #000;
+    border-bottom: .5em solid #000;
+}
+.trabalhos h2 {
+    color: #FFF;
+}
+.trabalhos ul {
+    overflow: hidden;
+    border: .5em solid black;
+}
+.trabalhos li {
+    float: left;
+    width: 33.333%;
+}
+.trabalhos img {
+    width: 100%;
+    display: block;
+}
+.blog {
+    background-color: #999;
+    background-image: linear-gradient(
+        to bottom left,
+        transparent 50%,
+        rgba(255,255,255,.1) 50%,
+        rgba(255,255,255,.1) 55%,
+        transparent 55%
+    );
+    background-size: 20px 20px;
+    background-attachment: fixed;
+    color: #FFF;
+    border-bottom: .5em solid #851944;
+    position: relative;
+}
+.blog small {
+    font-size: 0.8em;
+    position: relative;
+    top: -2em;
+}
+.blog li:hover,
+.blog li:focus {
+    background-color: #F2FFFC;
+}
+.blog li:hover .inicio-post,
+.blog li:focus .inicio-post {
+    display: inherit;
+}
+.blog li:hover a,
+.blog li:focus a {
+    color: #F26;
+    background-color: #f2fffc;
+}
+.blog li {
+    width: 40%;
+}
+.blog li a {
+    color: #FCF;
+    line-height: 2.5em;
+    padding-left: 2ch;
+}
+.blog .inicio-post {
+    display: none;
+    background-color: #F2FFFC;
+    color: black;
+    padding: 1em 1.5em;
+    position: absolute;
+    top: 8em;
+    left: 40%;
+    width: 50%;
+}
+footer {
+    padding-top: 3em;
+    background-color: #000;
+    color: #FFF;
+}
+footer a {
+    color: #F99;
+}
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}
+
+.palavras {
+    perspective: 5px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top 0;
+    left 0;
+    bottom: 0;
+    right: 0;
+}

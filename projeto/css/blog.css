@@ -1,0 +1,24 @@
+.post + .post {
+    padding-top: 1.5em;
+    margin-top: 1em;
+    background-image: linear-gradient(to right, 
+        rgba(128, 128, 128, 0),
+        rgba(128, 128, 128, 1),
+        rgba(128, 128, 128, 0)
+    );    
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    background-position: top;
+}
+.post footer {
+    padding: 0;
+}
+
+.leia-mais {
+    padding: 0.5em;
+    margin: 0.75em;
+    display: block;
+    font-size: 1.25em;
+    text-align: center;
+    background-color: #E6E7E8;
+}

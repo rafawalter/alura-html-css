@@ -1,0 +1,42 @@
+/**
+ * Cubo
+ */
+.cubo {
+	position: relative;
+	top: 100px;
+	left: 100px;
+	width: 200px;
+	height: 200px;	
+	transform-style: preserve-3d;
+	transform: rotateX(10deg) rotateY(10deg);
+}
+.face {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background-color: gray;
+}
+.frente {
+	background-color: red;
+	transform: translateZ(100px);
+}
+.tras {
+	background-color: cyan;
+	transform: translateZ(-100px) rotateX(180deg);
+}
+.direita {
+	background-color: green;
+	transform: translateX(100px) rotateY(90deg)
+}
+.esquerda {
+	background-color: magenta;
+	transform: translateX(-100px) rotateY(-90deg);
+}
+.cima {
+	background-color: blue;
+	transform: translateY(-100px) rotateX(90deg);
+}
+.baixo {
+	background-color: yellow;
+	transform: translateY(100px) rotateX(-90deg);
+}

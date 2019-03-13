@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+body {
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #F2FFFC;  
+    font-size: 100%;   
+    line-height: 1.5em;
+}
+
+h1,
+h2 {
+    font-family: "Fira Sans", "Open Sans Condensed", "Arial", sans-serif;
+}
+
+h2 {
+    font-size: 1.5em;
+    clear: both;
+}
+
+strong {
+    font-weight: bold;    
+}
+
+em {
+    font-style: italic;
+}
+main a:hover,
+main a:focus,
+footer a:hover,
+footer a:focus {
+    color: red;
+}
+.conteudo {
+    float: left;
+    width: 85%;
+    padding-bottom: 4em;
+}
+
+.minha-foto,
+.navegacao-site {
+    box-sizing: border-box;
+    float: right;
+    
+    border-left: 0.5rem solid black;
+    border-bottom: 0.5rem solid black;    
+}
+
+.minha-foto {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 15rem;
+}
+
+.navegacao-site {
+    right: 0;
+    position: relative;
+    top: 15em;
+    width: 15%;    
+}
+
+.rodape-da-pagina {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+.conteudo .container {
+    width: 720px;
+    margin: 0 auto;
+    padding: 1.5em 0;
+}
+
+.titulo-principal {
+    text-align: center;
+    background-color: #851944;
+    color: whitesmoke;
+    padding: 1.25em;
+    border-bottom: 0.5rem solid black;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.conteudo a {
+    color: #851944;
+}
+
+
+
+p {
+    text-align: justify;
+    margin: 1em 0;
+}
+blockquote,
+aside,
+footer {
+    padding: 1em;    
+}
+.navegacao-site {
+    background-color: #3c1d3d;
+    color: #f2fffc;
+    padding: 1em;
+    font-size: 1em;
+}
+.navegacao-site h1 {
+    font-size: 1.5em;
+    margin-top: 1em;    
+}
+.navegacao-site a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-transform: lowercase;
+}
+.navegacao-site a:hover,
+.navegacao-site a:focus {
+    text-shadow: 0 0 2px pink;    
+}
+.icones-redes-sociais li {
+    display: inline-block;
+}
+.icones-redes-sociais a {
+    display: inline-block;
+    width: 2.5em;
+    height: 2.5em;
+    text-indent: -99999px;
+    position: relative;
+}
+.icones-redes-sociais a:hover::after,
+.icones-redes-sociais a:focus::after {
+    content: attr(data-tooltip);
+    text-indent: 0;
+    color: black;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    text-align: center;
+    width: 300%;
+    font-size: .75em;
+    z-index: 99998;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.icones-redes-sociais a:hover::before,
+.icones-redes-sociais a:focus::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    text-indent: 0;
+    position: absolute;
+    top: 87%;
+    right: 32%;
+    z-index: 99999;
+    color: red;
+    background: white;
+    border: 3px solid black;
+    transform: rotate(45deg);
+    border-bottom: transparent;
+    border-right: transparent;    
+}
+.icones-redes-sociais .github {
+    background-image: url(../imagens/github.png);
+}
+.icones-redes-sociais .twitter {
+    background-image: url(../imagens/twitter.png);
+}
+.icones-redes-sociais .linkedin {
+    background-image: url(../imagens/linkedin.png);
+}
+.rodape-da-pagina {
+    text-shadow: 2px 2px black;
+    background-image: radial-gradient(ellipse at bottom left,
+       #3c1d3d,
+       #3c1d3d 65%,
+        black 65%,
+        black 70%,
+        transparent 70%
+    );
+    width: 100%;
+    background-size: 25% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    opacity: 0.8;
+    color: #f2fffc;    
+}
+

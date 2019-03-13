@@ -1,0 +1,49 @@
+.container > p:first-letter {
+    font-size: 2em;
+    text-shadow: 1px 1px #000;
+    font-weight: bold;
+    color: #3c1d3d;
+    margin-right: .1ch;
+    line-height: 1;
+}
+.recomendacao {
+    background-color: #d9e5e3;
+    border: 0.5rem solid #c2ccca;
+    width: 30ch;
+    box-sizing: border-box;
+    margin: 1em 2em;
+}
+.recomendacao p {
+    position: relative;
+}
+.recomendacao:before {
+    content: '“';
+    font-size: 10em;
+    color: #bbb;
+    position: absolute;
+    line-height: .8;
+}
+.recomendacao:hover,
+.recomendacao:focus {
+    box-shadow: 0 0 0 99999px rgba(0,0,0,0.8);
+    transform: scale(1.2);
+}
+.recomendacao:nth-of-type(odd) {
+    float: right;
+}
+.recomendacao:nth-of-type(odd):hover,
+.recomendacao:nth-of-type(odd):focus {
+    transform: rotate(5deg)
+}
+.recomendacao:nth-of-type(even) {
+    float: left;
+}
+.recomendacao:nth-of-type(even):hover,
+.recomendacao:nth-of-type(even):focus {
+    transform: rotate(-5deg)
+}
+cite {
+    float: right;
+    font-style: italic;
+    text-align: right;
+}
